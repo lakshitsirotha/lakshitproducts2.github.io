@@ -1,0 +1,125 @@
+body{
+    background: #fff;
+    height: 100%;
+    cursor: pointer;
+}
+input{
+    width: 250px;
+    border-radius: 30px;
+    border-color: red;
+    padding: 5px 10px;
+}
+.t1{ 
+    border-radius: 40px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    height: 200%;
+    float: left;
+    border-radius:30px; 
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    } 
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: ;-400%;
+    }
+}
+.tb1{
+    border-radius: 40px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    cursor: pointer;
+    padding: 20px 90px;
+}
+.tb1 img{
+    width: 250px;
+    height: 190px;
+    position: center;
+    padding: 20px 10px;
+    border-radius: 50px;
+    transition: 1s;
+    
+}
+.tb1 img:hover{
+    width: 270px;
+    height: 210px;
+    
+}
+.lo1{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+li{
+    font-family: fantasy;
+    padding: 0px 50px;
+}
+.tb1 h3{
+    font-family: fantasy;
+    color: limegreen;
+    padding: 0px 85px;
+}
+.tb1 li:hover{
+    cursor: pointer;
+    color: white;
+}
+.tb1 button{
+    font-family: cursive;
+    cursor: pointer;
+    background-color: skyblue;
+    border: 0;
+    border-radius: 30px;
+    padding: 0px 80px;
+}
+.tb1 button:hover{
+    background-color: red;
+}
+.infor{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.infor h3{
+    position: relative;
+    color: white;
+    font-family: cursive;
+}
+.infor h3:hover{
+   color: red;
+}
